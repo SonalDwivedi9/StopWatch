@@ -1,0 +1,216 @@
+body {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+   
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+}
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+
+
+/* #rotate{
+    height:30px;
+    width: 30px;
+    border: 2px solid maroon;
+    background-color: maroon;
+    border-radius: 50%;
+    margin-left: 156px;
+    margin-top: 4px;
+} */
+
+#icon {
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+    margin-left: 156px;
+    margin-top: 2px;
+}
+
+
+@keyframes design {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(90deg);
+    }
+
+    60% {
+        transform: rotate(-90deg);
+    }
+
+    80% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+
+    }
+
+}
+
+
+#rotate img {
+    animation-name: design;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#up {
+    height: 50px;
+    width: 110px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: -8px;
+    border-bottom: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 25px;
+    background-color: dimgray;
+    box-shadow: 3px 4px 50px 9px rgb(159, 216, 37);
+    transition: ease-in-out;
+
+}
+
+p {
+    margin-top: 6px;
+    color: darkgray;
+}
+
+#circle {
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    /* background-color: lightsteelblue; */
+    /* animation: gradient 15s ease infinite; */
+    background: linear-gradient(34deg, #38e4ea, #1539b6, #80df52, #e5c629, #8722d8);
+    background-size: 1000% 1000%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:67% 0%}
+    50%{background-position:34% 100%}
+    100%{background-position:67% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:67% 0%}
+    50%{background-position:34% 100%}
+    100%{background-position:67% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:67% 0%}
+    50%{background-position:34% 100%}
+    100%{background-position:67% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:67% 0%}
+    50%{background-position:34% 100%}
+    100%{background-position:67% 0%}
+}
+
+
+
+#time {
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.dig {
+    font-size: 55px;
+    color: rgb(155, 123, 18);
+}
+
+.text {
+    font-size: 25px;
+    color: rgb(127, 12, 189);
+}
+
+#button {
+    /* margin-top: 70px;
+    margin-left: 40px; */
+    /* justify-content: space-around; */
+
+}
+
+
+ 
+#start{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(81, 81, 223);
+    box-shadow: 3px 4px 50px 9px rgb(81, 81, 223);
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 9px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 3px 4px 50px 9px coral;
+}
+
+
+#stop{
+    position: absolute;
+    height: 40px;
+    width: 90px;
+    background-color: coral;
+    box-shadow: 3px 4px 50px 9px rgb(81, 81, 223);
+    cursor: pointer;
+    margin-left: 130px;
+    margin-top: 12px;
+    border-bottom: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#reset{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(81, 81, 223);
+    cursor: pointer;
+    margin-left: 285px;
+    margin-top: -50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 3px 4px 50px 9px coral;
+}
+
+
+
